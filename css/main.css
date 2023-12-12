@@ -57,6 +57,44 @@ header h1{
 /*  */
 /*  */
 
+.container-box {
+    margin-top: 40px;
+    width: 0 700px;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #1d1e21;
+   
+}
+
+.img-box{
+    background: var(--img) center;
+    width: 300px;
+    height: 600px;
+    background-size: cover;
+    flex-basis: 200px;
+    position: relative;
+    transition: 400ms all ease;
+    filter: grayscale(100%) opacity(35%);
+   
+}
+
+.img-box:nth-child(all) {
+    transform: translateY(-20px);
+}
+
+.img-box:hover {
+    flex-basis: 400px;
+    filter: grayscale(0%) opacity(100%);
+}
+
+
+/*  */
+/*  */
+
 a{
     text-decoration: none;
     color: var(--mainFont);
