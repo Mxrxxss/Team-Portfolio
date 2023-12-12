@@ -31,6 +31,9 @@ header h1 {
 
 }
 
+/*  */
+/*  */
+
 main {
     flex: 1 0 auto;
 }
@@ -49,4 +52,25 @@ header h1{
     background-color: rgba(0, 0, 0, 0.4);
     min-height: 60vh;
 
+}
+
+/*  */
+/*  */
+
+a{
+    text-decoration: none;
+    color: var(--mainFont);
+}
+
+footer {
+    background-color:var(--mainBg);
+
+}
+
+footer a {
+    color: var(--mainFont);
+}
+
+footer a:hover {
+    color: #dfdfdf;
 }
