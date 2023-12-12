@@ -1,0 +1,10 @@
+:root {
+    --bg: #fafafa;
+    --font:"Archivo", sans-serif;
+    --font-display: "Archivo", sans-serif;
+    --mainBg: #1d1e21;
+    --mainFont: #969696;   
+    --font: #ffffff;
+    /* --gradient:linear-gradient(35deg, var(--hotpink), var(--orange)); */
+    
+}
