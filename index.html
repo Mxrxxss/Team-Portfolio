@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/root.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <!--  -->
 </head>
 
@@ -42,10 +43,6 @@
                         <li class="nav-item ">
                             <a href="game.html" class="nav-link fw-medium">Games</a>
                         </li>
-
-                        <!-- <li class="nav-item ">
-                            <a href="contact.html" class="nav-link fw-medium">Blog</a>
-                        </li> -->
 
                         <li class="nav-item ">
                             <a href="portfolio.html" class="nav-link fw-medium">Portfolio</a>
@@ -75,7 +72,7 @@
             </div>
         </header>
 
-        <h1 class="fw-semibold fs-1 m-5 d-flex justify-content-center align-items-center" >S E R V I C E</h1> 
+        <h1 class="fw-semibold fs-1 m-5 d-flex justify-content-center align-items-center intitle" >S E R V I C E</h1> 
 
         <div class="container container-serv">
             <div class="service">
@@ -105,7 +102,7 @@
         </div>
 
         
-        <h1 class="fw-semibold fs-1 m-5 d-flex justify-content-center align-items-center" >G A M E</h1>     
+        <h1 class="fw-semibold fs-1 m-5 d-flex justify-content-center align-items-center intitle" >G A M E</h1>     
 
         <div class="container">
             <div class="container-x">
@@ -168,6 +165,21 @@
 
     <!--  -->
     <!--  -->
+
+    <script>
+        ScrollReveal({
+            // reset:true,
+            distance:'60px',
+            duration:2500,
+            delay: 400
+        });
+
+        ScrollReveal().reveal('header', {delay:500, origin:'top'})
+        ScrollReveal().reveal('.intitle, .container-box', {delay:600, origin:'bottom'})
+        ScrollReveal().reveal('.container-serv', {delay:1600, origin:'left'})
+        ScrollReveal().reveal('.card-container', {delay:500, origin:'right'})
+        
+    </script>
 
 </body>
 
