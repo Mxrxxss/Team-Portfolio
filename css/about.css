@@ -39,7 +39,7 @@ section {
     overflow: hidden;
 }
 
-.contente .image .picture {
+.contente .image video {
     z-index: 111;
     position: absolute;
     top: 0;

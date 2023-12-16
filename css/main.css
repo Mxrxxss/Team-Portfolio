@@ -121,7 +121,7 @@ header h1{
     position: relative;
 }
 
-h2 {
+.service h2 {
     text-transform: uppercase;
     margin: 0;
     position: absolute;
@@ -130,11 +130,72 @@ h2 {
     transform: translate(-50%, -50%);
 }
 
-p {
+.service p {
     position: absolute;
     top: 30%;
     text-align: center;
 }
+
+/*  */
+/*  */
+
+@media screen and (max-width: 768px) {
+    .container-serv {
+        width: 100%; 
+        height: auto; 
+        padding: 0 20px; 
+    }
+
+    .service {
+        width: 100%; 
+        margin: 10px 0; 
+    }
+
+    .box {
+        height: auto; 
+        text-align: center; 
+        border: 1px solid white; 
+        border-radius: 4px; 
+    }
+
+    .service h2,
+    .service p {
+        position: static; 
+        transform: none; 
+        text-align: center; 
+        margin: 10px 0; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container-serv {
+        width: 100%; 
+        height: auto; 
+        padding: 0 10px; 
+        margin-top: 20px; 
+    }
+
+    .service {
+        width: 100%; 
+        margin: 10px 0;
+    }
+
+    .box {
+        height: auto; 
+        text-align: center; 
+        border: 1px solid white; 
+        border-radius: 4px;
+    }
+
+    .service h2,
+    .service p {
+        position: static; 
+        transform: none; 
+        text-align: center; 
+        margin: 10px 0; 
+    }
+}
+
 
 
 /*  */
@@ -295,6 +356,8 @@ img {
 
 
 
+
+
 /*  */
 /*  */
 
@@ -315,3 +378,4 @@ footer a {
 footer a:hover {
     color: #dfdfdf;
 }
+
