@@ -4,12 +4,13 @@
   <title>Snake Game</title>
   <style>
     body {
-      background-color: aquamarine;
+      background-color: #1d1e21;
     }
 
     h1 {
       text-align: center;
       margin: auto;
+      color: #969696;
     }
 
     #snakeboard {
@@ -22,6 +23,7 @@
     #score {
       text-align: center;
       font-size: 140px;
+      color: #969696;
     }
 
     /* Add some style for the restart button */
@@ -30,6 +32,9 @@
       margin: 20px auto;
       padding: 10px;
       font-size: 18px;
+
+      background-color: #969696;
+      border-radius: 10px;
     }
 
     /* Style for the modal */
@@ -40,7 +45,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: rgba(0, 0, 0, 0.5);
+      background-color: #1d1e21;
       justify-content: center;
       align-items: center;
     }
@@ -68,9 +73,9 @@
 
   <script>
     const board_border = '#000000';
-    const board_background = '#0000FF';
-    const snake_col = '#ADD8E6';
-    const snake_border = '#00008B';
+    const board_background = '#1d1e21';
+    const snake_col = '#969696';
+    const snake_border = '#fafafa';
 
     let snake = [
       { x: 200, y: 200 },
