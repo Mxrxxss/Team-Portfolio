@@ -98,12 +98,16 @@ section {
     margin-bottom: 50px;
 }
 
-.media_info li:nth-child(1), .media_info li:nth-child(5) {
+.media_info li:nth-child(1), .media_info li:nth-child(3) {
     padding-left: 100px;
 }
 
-.media_info li:nth-child(2), .media_info li:nth-child(4) {
+/* .media_info li:nth-child(3), .media_info li:nth-child(4) {
     padding-left: 50px;
+} */
+
+.log {
+    background-color: #fff;
 }
 
 .sec-03, .sec-01 {

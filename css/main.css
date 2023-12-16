@@ -31,6 +31,7 @@ header h1 {
 
 }
 
+
 /*  */
 /*  */
 
@@ -149,7 +150,7 @@ img {
     display: grid;
     place-items: center;
     margin-inline: 1.5rem;
-    padding-block: 5rem;
+    padding-block: 1rem;
 }
 
 .card-container {
@@ -185,7 +186,7 @@ img {
 
 .card-description {
     display: block;
-    font-size: var(--small-font-size);
+    font-size: 1.5em;
     margin-bottom: .25rem;
 }
 
@@ -201,6 +202,7 @@ img {
     font-size: var(--small-font-size);
     font-weight: 500;
     color: var(--first-color);
+    font-size: 1.2em;
 }
 
 .card-button:hover {
