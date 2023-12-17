@@ -30,6 +30,7 @@ header h1 {
 
 }
 
+
 /*  */
 /*  */
 
@@ -119,7 +120,7 @@ header h1{
     position: relative;
 }
 
-h2 {
+.service h2 {
     text-transform: uppercase;
     margin: 0;
     position: absolute;
@@ -128,11 +129,72 @@ h2 {
     transform: translate(-50%, -50%);
 }
 
-p {
+.service p {
     position: absolute;
     top: 30%;
     text-align: center;
 }
+
+/*  */
+/*  */
+
+@media screen and (max-width: 768px) {
+    .container-serv {
+        width: 100%; 
+        height: auto; 
+        padding: 0 20px; 
+    }
+
+    .service {
+        width: 100%; 
+        margin: 10px 0; 
+    }
+
+    .box {
+        height: auto; 
+        text-align: center; 
+        border: 1px solid white; 
+        border-radius: 4px; 
+    }
+
+    .service h2,
+    .service p {
+        position: static; 
+        transform: none; 
+        text-align: center; 
+        margin: 10px 0; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container-serv {
+        width: 100%; 
+        height: auto; 
+        padding: 0 10px; 
+        margin-top: 20px; 
+    }
+
+    .service {
+        width: 100%; 
+        margin: 10px 0;
+    }
+
+    .box {
+        height: auto; 
+        text-align: center; 
+        border: 1px solid white; 
+        border-radius: 4px;
+    }
+
+    .service h2,
+    .service p {
+        position: static; 
+        transform: none; 
+        text-align: center; 
+        margin: 10px 0; 
+    }
+}
+
 
 
 /*  */
@@ -148,7 +210,7 @@ img {
     display: grid;
     place-items: center;
     margin-inline: 1.5rem;
-    padding-block: 5rem;
+    padding-block: 1rem;
 }
 
 .card-container {
@@ -184,7 +246,7 @@ img {
 
 .card-description {
     display: block;
-    font-size: var(--small-font-size);
+    font-size: 1.5em;
     margin-bottom: .25rem;
 }
 
@@ -200,6 +262,7 @@ img {
     font-size: var(--small-font-size);
     font-weight: 500;
     color: var(--first-color);
+    font-size: 1.2em;
 }
 
 .card-button:hover {
@@ -292,6 +355,8 @@ img {
 
 
 
+
+
 /*  */
 /*  */
 
@@ -312,3 +377,4 @@ footer a {
 footer a:hover {
     color: #dfdfdf;
 }
+
