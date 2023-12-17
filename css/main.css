@@ -365,8 +365,21 @@ img {
     }
 }
 
+/*  */
+/*  */
 
+.card-body {
 
+    background-color: #1d1e21;
+}
+
+.card-body .card-text{
+    color: #dfdfdf;
+}
+
+.card-body .card-title {
+    color: #dfdfdf;
+}
 
 
 
