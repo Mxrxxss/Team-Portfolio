@@ -3,6 +3,7 @@ body{
     display: flex;
     flex-direction: column;
     position: relative;
+    
 }
 
 .welcome {
@@ -12,13 +13,15 @@ body{
     bottom: 0;
     left: 0;
     right: 0;
-    background: white;
+    background: url(../picture/bgtry.png);
+    background-position: center;
+    background-size: cover;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     z-index: 1;
-
+    text-shadow: 3px 3px 7px whitesmoke;
 }
 
 .welcome.visible {
@@ -30,6 +33,7 @@ body{
     text-transform: uppercase;
     font-size: 5rem;
     margin-top: 0;
+    font-family: 'Silkscreen', sans-serif;
 }
 
 .welcome-button {

@@ -245,8 +245,15 @@ img {
     overflow: hidden;
 }
 
+
 .card-img {
     width: 328px;
+    border-radius: 1.5rem;
+}
+.card-img2 {
+    width: 350px;
+    height: 370px;
+    border: #f6f6f6 solid;
     border-radius: 1.5rem;
 }
 
@@ -267,7 +274,7 @@ img {
 
 .card-description {
     display: block;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-bottom: .25rem;
 }
 
