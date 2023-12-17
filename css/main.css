@@ -395,7 +395,19 @@ img {
 .card-body .card-title {
     color: #dfdfdf;
 }
+.skill{
+    background: #282828;
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid #efefef;
+    border-radius: 2px;
+}
 
+.skill_level{
+    background: #808482;
+    width: 100%;
+    height: 10px;
+}
 
 
 /*  */
