@@ -121,19 +121,32 @@ header h1{
     position: relative;
 }
 
-.service h2 {
+.service h4 {
     text-transform: uppercase;
     margin: 0;
     position: absolute;
-    top: 10%;
+    top: 14%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
+
 }
 
-.service p {
+/* .service p {
     position: absolute;
     top: 30%;
     text-align: center;
+} */
+
+.service i {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    font-size: 6em;
+}
+
+p {
+    color: #969696;
 }
 
 /*  */
@@ -159,7 +172,7 @@ header h1{
     }
 
     .service h2,
-    .service p {
+    .service i {
         position: static; 
         transform: none; 
         text-align: center; 
@@ -188,7 +201,7 @@ header h1{
     }
 
     .service h2,
-    .service p {
+    .service i {
         position: static; 
         transform: none; 
         text-align: center; 
