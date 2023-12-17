@@ -408,6 +408,10 @@ img {
     width: 100%;
     height: 10px;
 }
+.skill_txt{
+    font-size: 0.9em;
+    text-align: right;
+}
 
 
 /*  */
